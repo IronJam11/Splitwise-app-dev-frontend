@@ -25,15 +25,15 @@ class _RegisterPageState extends State<RegisterPage> {
             child: SemiCircle(),
           ),
           const Positioned(
-            top: 230, // Position of the first container
+            top: 230, 
             child: EntryWidget(),
           ),
           const Positioned(
-            top: 830, // Position of the second container, adjusted based on the height of the first container
+            top: 830, 
             child: AdditionalContainer(),
           ),
           const Positioned(
-            top: 75, // Position of the second container, adjusted based on the height of the first container
+            top: 75, 
             child: Header(),
           ),
           const Positioned(
