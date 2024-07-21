@@ -41,3 +41,49 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Flutter related
+.flutter/
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# IntelliJ related
+.idea/
+*.iml
+
+# VS Code related
+.vscode/
+
+# Common IDE specific files
+*.swp
+*.swo
+*.tmp
+*~
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Firebase
+firebase_app_id_file.json
+google-services.json
+
+# flutter generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-dependencies-lock
+
+# Generated plugin files
+plugin_build/
+
+# Coverage
+coverage/
+
+# App specific
+# You can add more custom patterns if needed
+
